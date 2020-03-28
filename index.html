@@ -2,11 +2,147 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mad Libs</title>
-    <link rel="stylesheet" href="style.css"
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>Mad libs!!</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <!-- inputs for every word we're going to replace -->
+    <section id="input-container">
+       this is the input container 
+       <ul>
+           <label>
+                Holiday Name
+               <input id="holiday1-input" />
+               <span id="holiday1-span"></span>
+           </label>
+
+           <label>
+                Verb
+               <input id="verb1-input" />
+               <span id="verb1-span"></span>
+           </label>
+
+           <label>
+                Noun
+               <input id="pluralNoun1-input" />
+               <span id="pluralNoun1-span"></span>
+           </label>
+
+           <label>
+                Verb
+               <input id="activeVerb1-input" />
+               <span id="activeVerb1-span"></span>
+           </label>
+
+           <label>
+                Verb
+               <input id="activeVerb2-input" />
+               <span id="activeVerb2-span"></span>
+           </label>
+
+            <label>
+                Noun
+               <input id="noun2-input" />
+               <span id="noun2-span"></span>
+            </label>
+
+            <label>
+                Noun
+               <input id="noun3-input" />
+               <span id="noun3-span"></span>
+            </label>
+
+            <label>
+                Body of Water
+               <input id="bodyOfWaterType1-input" />
+               <span id="bodyOfWaterType1"></span>
+            </label>
+
+            <label>
+                Happy Verb
+               <input id="happyVerb1-input" />
+               <span id="happyVerb1-span"></span>
+            </label>
+
+            <label>
+               Weather-Related Verb
+               <input id="weatherRelatedVerb1-input" />
+               <span id="weatherRelatedVerb1-span"></span>
+            </label>
+
+            <label>
+               Color
+               <input id="color1-input" />
+               <span id="color1-span"></span>
+            </label>
+
+            <label>
+               Noun
+               <input id="noun4-input" />
+               <span id="noun4-span"></span>
+            </label>
+       </ul>
+
+       <!-- button that submits our input, hides the inputs, and makes the text below visible -->
+       <button id="button">What Have You Done?</button>
+    </section>
+    <!-- text of our mad lib (hidden at first, but later visible) -->
+    <section id="madlib-container">
+        this is the mad lib container
+
+            <div>
+                It's coming on <span id="holiday1"></span>,<br>
+            </div>
+
+            <div>
+                They're <span id="verb1"></span> down<br>
+            </div>
+
+            <div>
+                <span id="pluralNounoun1"></span>.<br>
+            </div>
+
+            <div>
+                <span id="activeVerb1"></span> up reindeer<br>
+            </div>
+
+            <div>
+                <span id="activeVerb2"></span> songs of 
+            </div>
+
+            <div>
+                <span id="noun2"></span> and
+            </div>
+
+            <div>
+                <span id="noun3"></span>,<br>
+            </div>
+
+            <div>
+                Oh, I wish I had a <span id="bodyOfWaterType1"></span> I could 
+            </div>
+
+            <div>
+                <span id="happyVerb1"></span> away on.<br><br>
+            </div>
+
+            <div>
+                But it don't <span id="weatherRelatedVerb1"></span> here,<br>
+            </div>
+
+            <div>
+                Stays pretty <span id="color1"></span>.<br>
+            </div>
+
+            <div>
+                I'm gonna make a lot of <span id="noun4"></span> ...
+            </div>  
+
+    </section>
+
 </body>
+<script src="app.js"></script>
 </html>
